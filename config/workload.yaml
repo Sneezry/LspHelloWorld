@@ -14,8 +14,3 @@ spec:
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
-  source:
-    git:
-      url: https://github.com/sample-accelerators/hello-world
-      ref:
-        branch: main
